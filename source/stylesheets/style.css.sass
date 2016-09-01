@@ -1,0 +1,62 @@
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:800)
+
+body
+  background-color: #E3F6F3
+  background-image: url(/images/heart.svg)
+  background-repeat: no-repeat
+  background-size: contain
+  background-position: center
+  background-attachment: fixed
+  font-family: 'Arvo', serif
+
+h1, h2
+  font-family: 'Open Sans'
+  //font-weight: 900
+  //text-transform: uppercase
+
+
+
+svg.logo
+  font: 6.5em/1 Open Sans, Impact
+  text-transform: uppercase
+
+.callout
+  font-size: 2.5em
+
+.text
+  fill: none
+  stroke-width: 6
+  stroke-linejoin: round
+  stroke-dasharray: 70 330
+  stroke-dashoffset: 0
+  animation: stroke 6s infinite linear
+
+  &:nth-child(5n + 1)
+    stroke: #F2385A
+    animation-delay: -1.2s
+
+  &:nth-child(5n + 2)
+    stroke: #F5A503
+    animation-delay: -2.4s
+
+  &:nth-child(5n + 3)
+    stroke: #E9F1DF
+    animation-delay: -3.6s
+
+  &:nth-child(5n + 4)
+    stroke: #56D9CD
+    animation-delay: -4.8s
+
+  &:nth-child(5n + 5)
+    stroke: #3AA1BF
+    animation-delay: -6s
+
+@keyframes stroke
+  100%
+    stroke-dashoffset: -400
+
+section
+  background-color: #F4F7F7
+  border: 10px solid rgba(196, 237, 228, 0.25)
+  padding: 1rem
+  margin: 0 0 5rem 0
