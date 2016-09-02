@@ -1,28 +1,28 @@
 @import url(http://fonts.googleapis.com/css?family=Open+Sans:800);
-/* line 3, style.css.sass */
+/* line 3, //et.github.io/oneglove/stylesheets/style.css.sass */
 body {
   background-color: #E3F6F3;
-  background-image: url(/images/heart.svg);
+  background-image: url(//et.github.io/oneglove/images/heart.svg);
   background-repeat: no-repeat;
   background-size: contain;
   background-position: center;
   background-attachment: fixed;
   font-family: "Arvo", serif; }
 
-/* line 12, style.css.sass */
+/* line 12, //et.github.io/oneglove/stylesheets/style.css.sass */
 h1, h2 {
   font-family: "Open Sans"; }
 
-/* line 19, style.css.sass */
+/* line 19, //et.github.io/oneglove/stylesheets/style.css.sass */
 svg.logo {
   font: 6.5em/1 Open Sans, Impact;
   text-transform: uppercase; }
 
-/* line 23, style.css.sass */
+/* line 23, //et.github.io/oneglove/stylesheets/style.css.sass */
 .callout {
   font-size: 2.5em; }
 
-/* line 26, style.css.sass */
+/* line 26, //et.github.io/oneglove/stylesheets/style.css.sass */
 .text {
   fill: none;
   stroke-width: 6;
@@ -30,23 +30,23 @@ svg.logo {
   stroke-dasharray: 70 330;
   stroke-dashoffset: 0;
   animation: stroke 6s infinite linear; }
-  /* line 34, style.css.sass */
+  /* line 34, //et.github.io/oneglove/stylesheets/style.css.sass */
   .text:nth-child(5n + 1) {
     stroke: #F2385A;
     animation-delay: -1.2s; }
-  /* line 38, style.css.sass */
+  /* line 38, //et.github.io/oneglove/stylesheets/style.css.sass */
   .text:nth-child(5n + 2) {
     stroke: #F5A503;
     animation-delay: -2.4s; }
-  /* line 42, style.css.sass */
+  /* line 42, //et.github.io/oneglove/stylesheets/style.css.sass */
   .text:nth-child(5n + 3) {
     stroke: #E9F1DF;
     animation-delay: -3.6s; }
-  /* line 46, style.css.sass */
+  /* line 46, //et.github.io/oneglove/stylesheets/style.css.sass */
   .text:nth-child(5n + 4) {
     stroke: #56D9CD;
     animation-delay: -4.8s; }
-  /* line 50, style.css.sass */
+  /* line 50, //et.github.io/oneglove/stylesheets/style.css.sass */
   .text:nth-child(5n + 5) {
     stroke: #3AA1BF;
     animation-delay: -6s; }
@@ -54,21 +54,21 @@ svg.logo {
 @keyframes stroke {
   100% {
     stroke-dashoffset: -400; } }
-/* line 58, style.css.sass */
+/* line 58, //et.github.io/oneglove/stylesheets/style.css.sass */
 section {
   background-color: #F4F7F7;
   border: 10px solid rgba(196, 237, 228, 0.25);
   padding: 2rem;
   margin: 0 0 5rem 0; }
 
-/* line 65, style.css.sass */
+/* line 65, //et.github.io/oneglove/stylesheets/style.css.sass */
 .why p {
   font-size: 200%; }
 
-/* line 69, style.css.sass */
+/* line 69, //et.github.io/oneglove/stylesheets/style.css.sass */
 .how-it-works p {
   font-size: 200%; }
-/* line 71, style.css.sass */
+/* line 71, //et.github.io/oneglove/stylesheets/style.css.sass */
 .how-it-works i {
   color: #4C696B;
   font-size: 300%;
