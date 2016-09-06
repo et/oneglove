@@ -41,4 +41,10 @@ configure :build do
 
   # Minify Javascript on build
   # activate :minify_javascript
+
+  activate :asset_host, :host => '//et.github.io/oneglove'
+
+  activate :deploy do |deploy|
+    deploy.deploy_method = :git
+  end
 end
