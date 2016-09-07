@@ -2,25 +2,24 @@
 title: One Glove
 ---
 
-.row
-  .large-12.columns
-    %svg.logo{:viewbox => "0 0 600 300"}
-      / Symbol
-      %symbol#s-text
-        %text{:dy => ".35em", "text-anchor" => "middle", :x => "50%", :y => "50%"}
-          One Glove
-      / Duplicate symbols
-      %use.text{"xlink:href" => "#s-text"}
-      %use.text{"xlink:href" => "#s-text"}
-      %use.text{"xlink:href" => "#s-text"}
-      %use.text{"xlink:href" => "#s-text"}
-      %use.text{"xlink:href" => "#s-text"}
+%svg.logo{:viewbox => "0 0 600 300"}
+  / Symbol
+  %symbol#s-text
+    %text{:dy => ".35em", "text-anchor" => "middle", :x => "50%", :y => "50%"}
+      One Glove
+  / Duplicate symbols
+  / Props to codrops!
+  %use.text{"xlink:href" => "#s-text"}
+  %use.text{"xlink:href" => "#s-text"}
+  %use.text{"xlink:href" => "#s-text"}
+  %use.text{"xlink:href" => "#s-text"}
+  %use.text{"xlink:href" => "#s-text"}
 
 
 .row
   .large-12.columns
     .callout
-      %p.text-center One Glove is a not for profit mission to match unpaired gloves for those who are in need.
+      %p.text-center One Glove is a not for profit mission to reclaim unpaired gloves for those who are in need.
 
     %section.why
       %h1 Why?
@@ -34,15 +33,10 @@ title: One Glove
 
       .row
         .small-1.columns
-          %i.fi-clipboard-pencil
-        .small-11.columns
-          %p Fill out this <a href="#">form</a> to help catalogue incoming gloves
-
-      .row
-        .small-1.columns
           %i.fi-mail
         .small-11.columns
-          %p Mail your glove in
+          %p Mail your glove to:
+          %img(src="/images/address.png")
 
       .row
         .small-1.columns
@@ -56,7 +50,7 @@ title: One Glove
         .small-11.columns
           %p Matched gloves are delivered to those in need
 
-    %section
+    %section.faq
       %h1 FAQ
 
       %h3 Can I mail mittens?
@@ -64,7 +58,8 @@ title: One Glove
 
       %hr
 
-      %h3 I haven't lost a single glove, but I do have a pair of gloves that I no longer need. Can I mail a pair of gloves?
+      %h3 I have a pair of gloves that I no longer need. Can I mail those?
+
       %p Of course!
 
       %hr
@@ -75,9 +70,13 @@ title: One Glove
       %hr
 
       %h3 Can this be expanded outside of Denver?
-      %p Ideally yes but our resources are limited. Please contact us if you can help in other areas.
+      %p Ideally yes but our resources are limited. Please <a href="mailto:help@oneglove.love">contact us</a> if you'd like to help out in other areas.
 
       %hr
 
       %h3 Will you accept socks?
-      %p Not yet.
+      %p Not yet, but it's on the radar!
+
+%footer
+  %p.text-center
+    <a href="mailto:help@oneglove.love">help@oneglove.love</a>
