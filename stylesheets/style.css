@@ -81,7 +81,15 @@ section {
 
 /* line 79, //et.github.io/oneglove/stylesheets/style.css.sass */
 footer {
-  background-color: #382f29;
-  color: #9c9794;
+  background-color: #403D58;
   margin: 0 auto;
-  padding: 2rem; }
+  padding: 1rem; }
+  /* line 84, //et.github.io/oneglove/stylesheets/style.css.sass */
+  footer p {
+    margin: 0; }
+  /* line 87, //et.github.io/oneglove/stylesheets/style.css.sass */
+  footer a {
+    color: #FC7753; }
+  /* line 89, //et.github.io/oneglove/stylesheets/style.css.sass */
+  footer a:hover, footer a:focus {
+    color: #DBD56E; }
