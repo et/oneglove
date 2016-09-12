@@ -69,26 +69,30 @@ section {
 .how-it-works p {
   font-size: 200%; }
 /* line 67, //et.github.io/oneglove/stylesheets/style.css.sass */
+.how-it-works p.hint {
+  font-size: 150%;
+  color: #4C696B; }
+/* line 70, //et.github.io/oneglove/stylesheets/style.css.sass */
 .how-it-works i {
   color: #4C696B;
   line-height: normal; }
 
-/* line 71, //et.github.io/oneglove/stylesheets/style.css.sass */
+/* line 74, //et.github.io/oneglove/stylesheets/style.css.sass */
 .faq {
   margin: 0;
   border-bottom: 0; }
 
-/* line 75, //et.github.io/oneglove/stylesheets/style.css.sass */
+/* line 78, //et.github.io/oneglove/stylesheets/style.css.sass */
 footer {
   background-color: #403D58;
   margin: 0 auto;
   padding: 1rem; }
-  /* line 80, //et.github.io/oneglove/stylesheets/style.css.sass */
+  /* line 83, //et.github.io/oneglove/stylesheets/style.css.sass */
   footer p {
     margin: 0; }
-  /* line 83, //et.github.io/oneglove/stylesheets/style.css.sass */
+  /* line 86, //et.github.io/oneglove/stylesheets/style.css.sass */
   footer a {
     color: #FC7753; }
-  /* line 86, //et.github.io/oneglove/stylesheets/style.css.sass */
+  /* line 89, //et.github.io/oneglove/stylesheets/style.css.sass */
   footer a:hover, footer a:focus {
     color: #DBD56E; }
