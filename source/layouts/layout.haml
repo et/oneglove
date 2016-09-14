@@ -5,6 +5,12 @@
     %meta{:content => "ie=edge", "http-equiv" => "x-ua-compatible"}/
     %meta{:content => "width=device-width, initial-scale=1.0", :name => "viewport"}/
     %meta{:content => "One Glove is a not for profit mission to match unpaired gloves for those who are in need.", :name => "description"}/
+
+    %meta{"og:property" => "og:url", :content => "http://oneglove.love/"}
+    %meta{"og:property" => "og:title", :content => "One Glove"}
+    %meta{"og:property" => "og:description", :content => "One Glove is a not for profit mission to match unpaired gloves for those who are in need"}
+    %meta{"og:property" => "og:image", :content => "http://oneglove.love/images/heart.png"}
+
     %title= current_page.data.title || "One Glove"
     = favicon_tag '/images/heart.png'
     = stylesheet_link_tag 'foundation/app', 'foundation-icons', 'style', 'https://fonts.googleapis.com/css?family=Arvo', 'https://fonts.googleapis.com/css?family=Raleway'
